@@ -81,31 +81,7 @@ Les besoins du client doivent être réel.
 +
 NOTE: Assistance pendant les {heures-sae}h PJT
 
-|  === icon:calendar[] Quand ?
-
-* {heures-sae}h TP PJT réparties en 8:   
-. Préparation/Organisation (qui fait quoi, quel support, etc.)
-. Les Inputs nécessaires (définition, liste)
-. Recueil du besoin lui-même
-. Synthèse et organisation des inputs (1/2)
-. Synthèse et organisation des inputs (2/2)
-. Réalisations des supports (outputs) pour restitution au client (1/2)
-. Réalisations des supports (2/2)
-. Restitution orale (capture vidéo enregistrée)
-//----------------------------------------------------------------------------
-| === icon:map-signs[] Où ?
-
-- Salles TP (4 équipes/salle) pour les {heures-sae}h de PJT
-
-| === icon:wrench[] Quoi ?
-
-- Outils de maquettage ({balsamiq}, {figma}, {mockplus})
-- Outils modernes de rédaction ({asciidoc}, {latex})
-
-|===
-
-Petit test :
-
+|
 .icon:calendar[] Quand ?
 ====
 {heures-sae}h TP PJT réparties en 8 :
@@ -119,6 +95,17 @@ Petit test :
 . Réalisations des supports (2/2)
 . Restitution orale (capture vidéo enregistrée)
 ====
+//----------------------------------------------------------------------------
+| === icon:map-signs[] Où ?
+
+- Salles TP (4 équipes/salle) pour les {heures-sae}h de PJT
+
+| === icon:wrench[] Quoi ?
+
+- Outils de maquettage ({balsamiq}, {figma}, {mockplus})
+- Outils modernes de rédaction ({asciidoc}, {latex})
+
+|===
 
 //----------------------------------------------------------------------------
 //----------------------------------------------------------------------------

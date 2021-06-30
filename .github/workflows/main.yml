@@ -1,4 +1,4 @@
-name: My Antora Boostrap 
+name: Antora Pages Deploy 
 
 on:
   push:

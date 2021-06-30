@@ -11,6 +11,11 @@ jobs:
     name: "Build site with Antora"
     runs-on: [ubuntu-latest]
     steps:
+      - name: Setup Node.js for use with actions
+        uses: actions/setup-node@v2
+        with:
+          version: 12.x
+      - run: npm i asciidoctor-kroki
       - name: Checkout
         uses: actions/checkout@v2
       - name: "Generate site using antora site action"
@@ -34,7 +39,6 @@ jobs:
        uses: actions/setup-node@v2
        with:
          version: 12.x
-     - run: npm i asciidoctor-kroki
 
      - name: Checkout 🛎️
        uses: actions/checkout@v2.3.1

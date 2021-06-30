@@ -32,4 +32,8 @@ ui:
     contents: "static_files: [ .nojekyll ]"
 
 
-
+asciidoc:
+  extensions:
+    - asciidoctor-kroki
+  attributes:
+    kroki-fetch-diagram: true

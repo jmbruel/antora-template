@@ -71,8 +71,9 @@ Les besoins du client doivent être réel.
 [cols="1a,1a"]
 |===
 //----------------------------------------------------------------------------
-| === icon:graduation-cap[] Qui ?
-
+|
+.icon:graduation-cap[] Qui ?
+====
 - {ep} (p)
 - {jmb} (p) image:jmb.jpg[width=10%, pdfwidth=10%] 
 - {pso} (p)
@@ -80,7 +81,7 @@ Les besoins du client doivent être réel.
 - {tg} (v)
 +
 NOTE: Assistance pendant les {heures-sae}h PJT
-
+====
 |
 .icon:calendar[] Quand ?
 ====
@@ -96,15 +97,17 @@ NOTE: Assistance pendant les {heures-sae}h PJT
 . Restitution orale (capture vidéo enregistrée)
 ====
 //----------------------------------------------------------------------------
-| === icon:map-signs[] Où ?
-
+|
+.icon:map-signs[] Où ?
+====
 - Salles TP (4 équipes/salle) pour les {heures-sae}h de PJT
-
-| === icon:wrench[] Quoi ?
-
+====
+|
+.icon:wrench[] Quoi ?
+====
 - Outils de maquettage ({balsamiq}, {figma}, {mockplus})
 - Outils modernes de rédaction ({asciidoc}, {latex})
-
+====
 |===
 
 //----------------------------------------------------------------------------

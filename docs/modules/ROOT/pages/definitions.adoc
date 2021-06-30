@@ -11,15 +11,6 @@
 :pso: P. Sotin
 :tg: T. Goubin
 
-// config
-ifdef::env-github[]
-:tip-caption: :bulb:
-:note-caption: :information_source:
-:important-caption: :heavy_exclamation_mark:
-:caution-caption: :fire:
-:warning-caption: :warning:
-endif::[]
-
 // raccourcis sites et outils
 :aadl: http://www.aadl.info/[AADL]indexterm:[AADL]
 :artisan: http://www.artisansw.com/[Artisan]
@@ -119,3 +110,36 @@ endif::[]
 
 // data divers
 :here: icon:map-marker[role=red] You are here!
+
+//------------------------------------ variables de configuration
+// only used when master document
+:graduation-icon: pass:[<i class="fa fa-graduation-cap"></i>]
+:cogs-icon: pass:[<i class="fa fa-cogs"></i>]
+:beginner: icon:star-o[]
+:advanced: icon:star-half-o[]
+:expert: icon:star[]
+:dollar: icon:dollar[]
+:giturl: http://git-scm.com/
+:git: link:{giturl}[icon:git[]]
+:us-icon: image:icons/usa.svg[width=20%]
+:fr-icon: image:icons/france.svg[width=20%]
+
+// Specific to GitHub
+ifdef::env-github[]
+:toc:
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+:graduation-icon: :mortar_board:
+:cogs-icon: :writing_hand:
+:beginner: :arrow_right:
+:advanced: :arrow_upper_right:
+:expert: :arrow_up:
+:dollar: :dollar:
+:git: link:{giturl}[git]
+:us-icon: :us:
+:fr-icon: :fr:
+endif::[]
+

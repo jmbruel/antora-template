@@ -2,3 +2,6 @@
 
 This is my template for Antora-based documentation sites.
 
+The (automatically) deployed web pages are here: https://jmbruel.github.io/antora-template.
+
+The content of the site is taken from distant repos or from content in the local `docs` repo.

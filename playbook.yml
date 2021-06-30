@@ -1,8 +1,12 @@
+# https://docs.antora.org/antora/2.3/playbook/configure-site/
+# On définit ici l'URL qui permettra d'accéder au site créé par
+# Antora depuis l'extérieur.
 site:
-  title: My Antora Boostrap
+  title: 'My Antora Boostrap'
   # the 404 page and sitemap files only get generated when the url property is set
-  url: https://antora.gitlab.io/demo/docs-site
-  start_page: component-b::index.adoc
+  url: https://jmbruel.github.io/antora-template
+  start_page: but::master.adoc
+
 content:
   sources:
   # embedding empty credentials in the URL disables the Edit this Page link for any page created from this repository
@@ -11,6 +15,10 @@ content:
   - url: https://gitlab.com/antora/demo/demo-component-b.git
     branches: [v2.0, v1.0]
     start_path: docs
+  - url: .
+    branches: HEAD
+    start_path: docs
+
 ui:
   bundle:
     url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
@@ -19,3 +27,6 @@ ui:
   - path: .nojekyll
   - path: ui.yml
     contents: "static_files: [ .nojekyll ]"
+
+
+

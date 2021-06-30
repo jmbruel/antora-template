@@ -1,0 +1,11 @@
+= Bachelor Universitaire de Technologie -- IUT de Blagnac
+Jean-Michel Bruel <bruel@irit.fr>
+v1.0, {localdate}
+:myinitials: JMB
+:icons: font
+:xrefstyle: short
+// short full basic
+
+include::ROOT:page$definitions.adoc[]
+
+Exemple de page master...

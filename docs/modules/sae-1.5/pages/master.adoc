@@ -30,9 +30,12 @@ endif::[]
 
 === Présentation de la SAÉ {num-sae}
 
+[#presentation]
+--
+
 En S1, la SAÉ relative aux compétences :
 
-- link:C5.adoc[Compétence 5 (Identifier les besoins métiers des clients et des utilisateurs)] (40%)
+- xref:C5:master.adoc[Compétence 5 (Identifier les besoins métiers des clients et des utilisateurs)] (40%)
 
 L’objectif de la SAÉ {num-sae} vise à évaluer votre capacité à écouter et retranscrire les besoins d'un client pour un projet (un produit, une application, une activité à venir) donné.
 
@@ -41,10 +44,12 @@ Les ressources mises en oeuvre sont les suivantes :
 - R1.2 Dév. Int. Web (2h TP -- maquettes écran)
 - R1.8 Gestion de projet (4h TD -- notions de clients, utilisateurs, personnae, User Story, exigences)
 - R1.11 Base de la com (pas d'heures -- questions type OQQCP...)
-
+--
 
 === Attendus
 
+[#attendus]
+--
 Le recueil du besoin doit permettre au client de s'assurer que son besoin a bien été compris.
 Il pourra donc contenir (en fonction du contexte) :
 
@@ -54,10 +59,14 @@ Il pourra donc contenir (en fonction du contexte) :
 - des captures d'écran ou des photos (s'il y a un existant)
 - des maquettes de la future application 
 - tout élément qui vous semble pertinent pour la compréhension et la capture du besoin client
+--
 
 === Contraintes
 
+[#contraintes]
+--
 Les besoins du client doivent être réel.
+--
 
 === icon:book[] Livrables
 

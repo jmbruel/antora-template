@@ -1,4 +1,7 @@
 * xref:master.adoc[]
 
 .Liste des SAÉs 
-* xref:1.5:master.adoc[]
+* xref:sae-1.5:master.adoc[1.5 Recueil de besoins]
+
+.Liste des Compétences 
+* xref:C5:master.adoc[C5 Identifier les besoins métiers]

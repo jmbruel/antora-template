@@ -2,7 +2,6 @@
 
 # https://docs.antora.org/antora/2.3/component-name-and-version/
 name: but
-title: BUT-Info-Blagnac
 version: '1.0'
 
 # https://docs.antora.org/antora/2.3/component-display-version/

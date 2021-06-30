@@ -2,6 +2,7 @@
 :mytitle: Recueil de besoins
 :year: 2021-2022
 :heures-sae: 12
+:example-caption!:
 = SAÉ {num-sae}: {mytitle}
 :icons: font
 ifndef::backend-pdf[include::ROOT:page$definitions.adoc[]]

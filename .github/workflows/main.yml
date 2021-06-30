@@ -22,8 +22,7 @@ jobs:
         with:
          antora_playbook: playbook.yml
       - name: "Install Kroki"
-         run: |
-            npm i asciidoctor-kroki
+         run: npm i asciidoctor-kroki
       - name: "Upload generated site"
         uses: actions/upload-artifact@v1.0.0
         with:

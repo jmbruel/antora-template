@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Bachelor Universitaire de Technologie&#8201;&#8212;&#8201;IUT de Blagnac :: My Antora Boostrap</title>
-    <link rel="canonical" href="https://jmbruel.github.io/antora-template/but/1.0/master.html">
+    <title>Untitled :: My Antora Boostrap</title>
+    <link rel="canonical" href="https://jmbruel.github.io/antora-template/but/1.0/buts1.html">
     <meta name="generator" content="Antora 2.3.4">
     <link rel="stylesheet" href="../../_/css/site.css">
     <script>var uiRootPath = '../../_'</script>
@@ -50,7 +50,7 @@
 <ul class="nav-list">
   <li class="nav-item" data-depth="0">
 <ul class="nav-list">
-  <li class="nav-item is-current-page" data-depth="1">
+  <li class="nav-item" data-depth="1">
     <a class="nav-link" href="master.html">Bachelor Universitaire de Technologie&#8201;&#8212;&#8201;IUT de Blagnac</a>
   </li>
 </ul>
@@ -117,29 +117,90 @@
 <main class="article">
 <div class="toolbar" role="navigation">
 <button class="nav-toggle"></button>
-  <a href="master.html" class="home-link is-current"></a>
+  <a href="master.html" class="home-link"></a>
 <nav class="breadcrumbs" aria-label="breadcrumbs">
-  <ul>
-    <li><a href="master.html">BUT Informatique Blagnac</a></li>
-    <li><a href="master.html">Bachelor Universitaire de Technologie&#8201;&#8212;&#8201;IUT de Blagnac</a></li>
-  </ul>
 </nav>
-  <div class="edit-this-page"><a href="https://github.com/jmbruel/antora-template/edit/master/docs/modules/ROOT/pages/master.adoc">Edit this Page</a></div>
+  <div class="edit-this-page"><a href="https://github.com/jmbruel/antora-template/edit/master/docs/modules/ROOT/pages/buts1.adoc">Edit this Page</a></div>
   </div>
   <div class="content">
 <aside class="toc sidebar" data-title="Contents" data-levels="2">
   <div class="toc-menu"></div>
 </aside>
 <article class="doc">
-<h1 class="page">Bachelor Universitaire de Technologie&#8201;&#8212;&#8201;IUT de Blagnac</h1>
 <div class="paragraph">
-<p>Exemple de page master&#8230;&#8203;</p>
+<p>@startuml buts1</p>
 </div>
-<div class="imageblock kroki">
-<div class="content">
-<img src="_images/diag-ba0b93fbfbb5d205b0c90c000295cc2893dbfc9b.svg" alt="mermaid">
+<div class="paragraph">
+<p>!include config.adoc
+'!include competences.plantuml</p>
 </div>
-<div class="title">Figure 1. mermaid</div>
+<div class="paragraph">
+<p>'!include sae.plantuml</p>
+</div>
+<div class="paragraph">
+<p>'----------- Ressources
+storage "R1.01\nInitiation au dev." as r11
+storage "R1.02\nDev. interfaces web" as r12
+storage "R1.03\nIntro. archi." as r13
+storage "R1.04\nIntro. systèmes " as r14
+storage "R1.05\nIntroduction BD " as r15
+storage "R1.06\nMaths discrètes " as r16
+storage "R1.07\nOutils fondamentaux " as r17
+storage "R1.08\nGestion proj. orga. " as r18
+storage "R1.09\nÉconomie" as r19
+storage "R1.10\nAnglais technique" as r110
+storage "R1.11\nBases de la comm " as r111</p>
+</div>
+<div class="paragraph">
+<p>'----------- SAÉs
+node "SAE 1.1\nImplémentation\nbesoin client" as sae11
+node "SAE 1.2\nComparaison d&#8217;algo" as sae12
+node "SAE 1.3\nInstallation poste" as sae13
+node "SAE 1.4\nCréation BD" as sae14
+node "SAE 1.5\n[[<a href="https://jmbruel.github.io/antora-template/but/1.0/sae-1.5/master.html" class="bare">https://jmbruel.github.io/antora-template/but/1.0/sae-1.5/master.html</a> Recueil besoins]]" as sae15
+node "SAE 1.6\nEnvironnement éco" as sae16</p>
+</div>
+<div class="paragraph">
+<p>'----------- Chronologie des SAÉ</p>
+</div>
+<div class="paragraph">
+<p>sae15 &lt;.. sae11
+sae11 &lt;.. sae12</p>
+</div>
+<div class="paragraph">
+<p>'----------- Graphe
+title Info - S1 v.0.1</p>
+</div>
+<div class="paragraph">
+<p>r11 -&#8594; sae11 : 2/2
+r11 -&#8594; sae12 : 2/2
+r12 -&#8594; sae15 : 0/2
+r12 -&#8594; sae16 : 0/2
+r13 -&#8594; sae13 : 3/0
+r14 -&#8594; sae13 : 2/0
+r15 -&#8594; sae14 : 2/2
+r16 -&#8594; sae12 : x
+r17 -&#8594; sae12 : x
+r18 -&#8594; sae15 : 4/0
+r18 -&#8594; sae16 : x
+r19 -&#8594; sae14 : 2/0
+r19 -&#8594; sae16 : x
+r110 -&#8594; sae12 : x
+r110 -&#8594; sae13 : 0/2
+r111 -&#8594; sae13 : 0/2
+r111 -&#8594; sae15 : x
+r111 -&#8594; sae16 : 0/4</p>
+</div>
+<div class="paragraph">
+<p>'--- Legend---
+storage Ressource as r
+node SAÉ as s
+r -&#8594; s : TD/TP</p>
+</div>
+<div class="paragraph">
+<p>' Astuce cachée pour mettre la 14 à gauche de la 15
+'sae14 -[hidden]&gt; sae15
+@enduml</p>
 </div>
 </article>
   </div>

@@ -1,6 +1,6 @@
 @startuml buts1
 
-!include config.adoc
+!include config.plantuml
 '!include competences.plantuml
 
 '!include sae.plantuml

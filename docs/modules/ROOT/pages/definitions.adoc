@@ -1,6 +1,8 @@
 :definitions:
 
+// Required mmacros
 :FR:
+:plantuml-server-url: http://www.plantuml.com/plantuml
 
 // Définition des enseignants
 :ap: A. Peninou

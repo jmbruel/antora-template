@@ -4,16 +4,17 @@ v1.0, {localdate}
 :myinitials: JMB
 :icons: font
 :xrefstyle: short
+:experimental:
 // short full basic
 
 include::ROOT:page$definitions.adoc[]
 
 Exemple de page master...
 
-[plantuml, format="svg", options="interactive"]
-....
-include::buts1.plantuml[]
-....
+// [plantuml, format="svg", options="interactive"]
+// ....
+// include::ROOT:page$buts1.adoc[]
+// ....
 
 .mermaid
 [mermaid]

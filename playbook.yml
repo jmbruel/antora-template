@@ -37,3 +37,4 @@ asciidoc:
     - asciidoctor-kroki
   attributes:
     kroki-fetch-diagram: true
+    

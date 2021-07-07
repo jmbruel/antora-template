@@ -10,9 +10,11 @@ ifndef::backend-pdf[include::ROOT:page$definitions.adoc[]]
 ifdef::backend-pdf[]
 include::../../ROOT/pages/definitions.adoc[]
 :imagesdir: ../images
-:allow-uri-read: 
 :safe: unsafe
 endif::[]
+:xrefstyle: short
+// short full basic
+:experimental:
 
 == Programme national
 
@@ -121,8 +123,6 @@ NOTE: Assistance pendant les {heures-sae}h PJT
 
 //----------------------------------------------------------------------------
 //----------------------------------------------------------------------------
-
-
 
 
 

@@ -105,6 +105,30 @@ NOTE: Assistance pendant les {heures-sae}h PJT
 . Réalisations des supports (2/2)
 . Restitution orale (capture vidéo enregistrée)
 ====
+
+[plantuml, format="svg", opts="interactive", svg-type="inline", width=100%]
+....
+@startgantt
+
+printscale weekly
+
+Project starts the 20th of September 2021
+
+
+-- SAE S1.05 --
+
+[Organisation] lasts 2 weeks
+then [Recueil] lasts 1 week
+then [Synthèse] lasts 2 weeks
+then [Rédaction] lasts 2 weeks
+
+'[Présentation] happens at [Rédaction]'s end
+[Présentation] happens the 10 November 2021
+
+@endgantt
+....
+
+
 //----------------------------------------------------------------------------
 |
 .icon:map-signs[] Où ?

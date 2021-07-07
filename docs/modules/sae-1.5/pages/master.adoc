@@ -2,7 +2,6 @@
 :mytitle: Recueil de besoins
 :year: 2021-2022
 :heures-sae: 12
-:example-caption!:
 = SAÉ {num-sae}: {mytitle}
 :icons: font
 ifndef::backend-pdf[include::ROOT:page$definitions.adoc[]]
@@ -13,6 +12,7 @@ include::../../ROOT/pages/definitions.adoc[]
 :allow-uri-read: 
 :safe: unsafe
 endif::[]
+:example-caption!:
 
 == Programme national
 
@@ -90,6 +90,31 @@ Les besoins du client doivent être réel.
 - {tg} (v)
 +
 NOTE: Assistance pendant les {heures-sae}h PJT
++
+[plantuml, gantt, format="svg", opts="interactive", svg-type="inline", width=100%]
+....
+@startgantt
+
+printscale weekly
+
+Project starts the 6th of September 2021
+
+
+-- SAE S1.05 --
+
+[Organisation] starts the 20th of September 2021
+
+[Organisation] lasts 2 weeks
+then [Recueil] lasts 1 week
+then [Synthèse] lasts 2 weeks
+then [Rédaction] lasts 2 weeks
+
+'[Présentation] happens at [Rédaction]'s end
+[Présentation] happens the 10 November 2021
+
+@endgantt
+....
+
 ====
 |
 .icon:calendar[] Quand ?
@@ -106,27 +131,6 @@ NOTE: Assistance pendant les {heures-sae}h PJT
 . Restitution orale (capture vidéo enregistrée)
 ====
 
-[plantuml, format="svg", opts="interactive", svg-type="inline", width=100%]
-....
-@startgantt
-
-printscale weekly
-
-Project starts the 20th of September 2021
-
-
--- SAE S1.05 --
-
-[Organisation] lasts 2 weeks
-then [Recueil] lasts 1 week
-then [Synthèse] lasts 2 weeks
-then [Rédaction] lasts 2 weeks
-
-'[Présentation] happens at [Rédaction]'s end
-[Présentation] happens the 10 November 2021
-
-@endgantt
-....
 
 
 //----------------------------------------------------------------------------

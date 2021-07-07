@@ -2,18 +2,20 @@
 # On définit ici l'URL qui permettra d'accéder au site créé par
 # Antora depuis l'extérieur.
 site:
-  title: 'My Antora Boostrap'
+  title: 'IUT Blagnac -- Département Informatique'
   # the 404 page and sitemap files only get generated when the url property is set
   url: https://jmbruel.github.io/antora-template
-  start_page: but::master.adoc
+  start_page: dpt::master.adoc
 
 content:
   sources:
   # embedding empty credentials in the URL disables the Edit this Page link for any page created from this repository
-  - url: https://@gitlab.com/antora/demo/demo-component-a.git
-    branches: master
-  - url: https://gitlab.com/antora/demo/demo-component-b.git
-    branches: [v2.0, v1.0]
+  # - url: https://@gitlab.com/antora/demo/demo-component-a.git
+  #   branches: master
+  # - url: https://gitlab.com/antora/demo/demo-component-b.git
+  #   branches: [v2.0, v1.0]
+  #   start_path: docs
+  - url: https://github.com/jmbruel/but1.git
     start_path: docs
   - url: .
     branches: HEAD

@@ -154,33 +154,11 @@
 <div id="presentation" class="openblock">
 <div class="content">
 <div class="paragraph">
-<p>En S1, la SAÉ relative aux compétences :</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p><a href="../C5/master.html" class="page">Compétence 5 (Identifier les besoins métiers des clients et des utilisateurs)</a> (40%)</p>
-</li>
-</ul>
+<p>En S2, la SAÉ relative aux compétences <a href="#C1:master.adoc" class="page unresolved">Compétence 1 (Développer des applications)</a>, <a href="#C4:master.adoc" class="page unresolved">Compétence 4 (Gérer des données de l’information)</a>, <a href="../C5/master.html" class="page">Compétence 5 (Gérer un projet)</a> et <a href="#C6:master.adoc" class="page unresolved">Compétence 6 (Travailler dans une équipe informatique)</a> vous amènera à travailler en groupe pour développer une application.
+Pour ce faire, un certain nombre d’outils logiciels sont nécessaires.</p>
 </div>
 <div class="paragraph">
-<p>L’objectif de la SAÉ 1.03 vise à évaluer votre capacité à écouter et retranscrire les besoins d&#8217;un client pour un projet (un produit, une application, une activité à venir) donné.</p>
-</div>
-<div class="paragraph">
-<p>Les ressources mises en oeuvre sont les suivantes :</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>R1.2 Dév. Int. Web (2h TP&#8201;&#8212;&#8201;maquettes écran)</p>
-</li>
-<li>
-<p>R1.8 Gestion de projet (4h TD&#8201;&#8212;&#8201;notions de clients, utilisateurs, personnae, User Story, exigences)</p>
-</li>
-<li>
-<p>R1.11 Base de la com (pas d&#8217;heures&#8201;&#8212;&#8201;questions type OQQCP&#8230;&#8203;)</p>
-</li>
-</ul>
+<p>L’objectif de la SAÉ 1.03 vise à évaluer votre capacité à construire une solution logicielle sous la forme d’une machine virtuelle (VM) comportant tous les composants nécessaires au développement de l’application du S2,  solution déployable sur Linux.</p>
 </div>
 </div>
 </div>
@@ -190,28 +168,30 @@
 <div id="attendus" class="openblock">
 <div class="content">
 <div class="paragraph">
-<p>Le recueil du besoin doit permettre au client de s&#8217;assurer que son besoin a bien été compris.
-Il pourra donc contenir (en fonction du contexte) :</p>
+<p>La VM doit permettre de :</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>des schémas (e.g., diagrammes des cas d&#8217;utilisation)</p>
+<p>Disposer d’un environnement de développement (IDE <a href="http://www.eclipse.org">eclipse</a>)</p>
 </li>
 <li>
-<p>des tableaux, des listes (de personnes, de propriétés, &#8230;&#8203;)</p>
+<p>Développer en Java V1.8</p>
 </li>
 <li>
-<p>des scénarios d&#8217;utilisation</p>
+<p>Produire des diagrammes de Gantt</p>
 </li>
 <li>
-<p>des captures d&#8217;écran ou des photos (s&#8217;il y a un existant)</p>
+<p>Produire de la documentation en <a href="https://asciidoc.org/">AsciiDoc</a></p>
 </li>
 <li>
-<p>des maquettes de la future application</p>
+<p>Générer un <code>pdf</code></p>
 </li>
 <li>
-<p>tout élément qui vous semble pertinent pour la compréhension et la capture du besoin client</p>
+<p>Faire des requêtes sur une base de données en se connectant avec un compte (SQL Developer + OJDBC8)</p>
+</li>
+<li>
+<p>Gérer le <em>versionning</em> du code et de la documentation (client Git Tortoise).</p>
 </li>
 </ul>
 </div>
@@ -223,7 +203,7 @@ Il pourra donc contenir (en fonction du contexte) :</p>
 <div id="contraintes" class="openblock">
 <div class="content">
 <div class="paragraph">
-<p>Les besoins du client doivent être réel.</p>
+<p>La VM doit avoir une taille mémoire inférieure à x Go</p>
 </div>
 </div>
 </div>
@@ -233,10 +213,10 @@ Il pourra donc contenir (en fonction du contexte) :</p>
 <div class="ulist checklist">
 <ul class="checklist">
 <li>
-<p><input type="checkbox" data-item-complete="0"> Recueil de besoin (au format <code>PDF</code>) sur un dépôt moodle dédié</p>
+<p><input type="checkbox" data-item-complete="0"> Scripts de tests permettant de démontrer que la VM est opérationnelle et permet de réaliser les actions attendues</p>
 </li>
 <li>
-<p><input type="checkbox" data-item-complete="0"> Vidéo finale de présentation (10' max) sur un dépôt moodle dédié</p>
+<p><input type="checkbox" data-item-complete="0"> FAQ des problèmes rencontrés et des solutions apportées ou « How To » faute de problèmes</p>
 </li>
 </ul>
 </div>
@@ -259,19 +239,19 @@ Il pourra donc contenir (en fonction du contexte) :</p>
 <div class="ulist">
 <ul>
 <li>
-<p>E. Pendaries (p)</p>
-</li>
-<li>
-<p><a href="mailto:jbruel@gmail.com">J.-M. Bruel</a> (p) <span class="image"><img src="_images/jmb.jpg" alt="jmb" width="10%"></span></p>
-</li>
-<li>
 <p>P. Sotin (p)</p>
 </li>
 <li>
-<p>L. Chanouha  (v)</p>
+<p>R. Boulle (p)</p>
 </li>
 <li>
-<p>T. Goubin (v)</p>
+<p><a href="mailto:laurence.redon@uni-tlse2.fr">L. Redon</a> (p)</p>
+</li>
+<li>
+<p>M. de Michiel (p)</p>
+</li>
+<li>
+<p>X (v)</p>
 <div class="admonitionblock note">
 <table>
 <tr>
@@ -292,36 +272,24 @@ Assistance pendant les 15h PJT
 <td class="tableblock halign-left valign-top"><div class="content"><div class="exampleblock">
 <div class="title">Example 2. <span class="icon"><i class="fa fa-calendar"></i></span> Quand ?</div>
 <div class="content">
-<div class="paragraph">
-<p>15h TP PJT réparties en 8 :</p>
-</div>
-<div class="olist arabic">
-<ol class="arabic">
+<div class="ulist">
+<ul>
 <li>
-<p>Préparation/Organisation (qui fait quoi, quel support, etc.)</p>
+<p>15h TP PJT : s49 et/ou s50 (construction)</p>
 </li>
 <li>
-<p>Les Inputs nécessaires (définition, liste)</p>
+<p>3h TD R1-03 : s50 (validation/tests)</p>
 </li>
 <li>
-<p>Recueil du besoin lui-même</p>
+<p>1h30 TD R1-04 : s48 (présentation)</p>
 </li>
 <li>
-<p>Synthèse et organisation des inputs (1/2)</p>
+<p>1h30 TP R1-10 : sX (man)</p>
 </li>
 <li>
-<p>Synthèse et organisation des inputs (2/2)</p>
+<p>1h30 R1-11 : sX (FAQ)</p>
 </li>
-<li>
-<p>Réalisations des supports (outputs) pour restitution au client (1/2)</p>
-</li>
-<li>
-<p>Réalisations des supports (2/2)</p>
-</li>
-<li>
-<p>Restitution orale (capture vidéo enregistrée)</p>
-</li>
-</ol>
+</ul>
 </div>
 </div>
 </div></div></td>
@@ -335,6 +303,9 @@ Assistance pendant les 15h PJT
 <li>
 <p>Salles TP (4 équipes/salle) pour les 15h de PJT</p>
 </li>
+<li>
+<p>Salle TD pour la validation (démo avec vidéo proj)</p>
+</li>
 </ul>
 </div>
 </div>
@@ -345,10 +316,10 @@ Assistance pendant les 15h PJT
 <div class="ulist">
 <ul>
 <li>
-<p>Outils de maquettage (<a href="https://balsamiq.com/">Balsamiq</a>, <a href="https://www.figma.com/">Figma</a>, <a href="https://app.mockplus.com/">Mockplus</a>)</p>
+<p>Versions des outils mis à disposition</p>
 </li>
 <li>
-<p>Outils modernes de rédaction (<a href="https://asciidoc.org/">AsciiDoc</a>, <a href="https://www.latex-project.org/">LaTeX</a>)</p>
+<p>Espace pour déposer la VM (35 équipes x x Go)</p>
 </li>
 </ul>
 </div>
@@ -357,6 +328,183 @@ Assistance pendant les 15h PJT
 </tr>
 </tbody>
 </table>
+<div class="sect2">
+<h3 id="_phases"><a class="anchor" href="#_phases"></a>Phases</h3>
+<div id="phase" class="openblock">
+<div class="content">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Installation de l’OS</p>
+<div class="ulist">
+<ul>
+<li>
+<p>L’OS est imposé : UNIX. Le choix de la distribution est laissé à l’initiative du groupe; doit être argumentée</p>
+</li>
+<li>
+<p>Le format de la VM : elle doit être ouvrable par VirtualBox ou VMWare</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Installation des applications</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Les applications ne sont pas imposées mais doivent être mis à disposition dans cette VM les outils répondant aux attendus listés au-dessus (cf § Attendus)</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Paramétrage</p>
+<div class="ulist">
+<ul>
+<li>
+<p>L’invite de commande doit être personnalisée et paramétrée avec le nom de l’utilisateur</p>
+</li>
+<li>
+<p>On doit pouvoir créer un utilisateur mais aussi une liste d’utilisateurs</p>
+</li>
+<li>
+<p>Au minimum 2 alias de commande doivent être prévues (au choix, à justifier en termes d’optimisation)</p>
+</li>
+<li>
+<p>Le <code>PATH</code> doit être paramétré de telle sorte que les commandes se lancent correctement</p>
+</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_liens_avec_les_ressources"><a class="anchor" href="#_liens_avec_les_ressources"></a>Liens avec les ressources</h3>
+<div class="paragraph">
+<p>Les ressources mises en oeuvre sont les suivantes :</p>
+</div>
+<div id="ressources" class="openblock">
+<div class="content">
+<div class="paragraph">
+<p>Ressource  R1-03 Introduction à l’architecture des ordinateurs</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Espace mémoire : RAM</p>
+</li>
+<li>
+<p>Type de processeur</p>
+</li>
+<li>
+<p>BIOS</p>
+</li>
+<li>
+<p>Sécurité système</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Ressource  R1-04 « Introduction aux systèmes d’exploitation et à leur fonctionnement »</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Commandes de base : <code>rm</code>, <code>cd</code>, <code>ls</code>, <code>grep</code>, …</p>
+</li>
+<li>
+<p>Variables d’environnement</p>
+</li>
+<li>
+<p>Script</p>
+</li>
+<li>
+<p>Processus</p>
+</li>
+<li>
+<p>Droits d’accès</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Ressource  R1-10 « Anglais technique »</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Le « man » est une aide précieuse pour comprendre les commandes et investiguer les paramètres applicables</p>
+</li>
+<li>
+<p>Traduction et travail sur l’aide en ligne via le man sur les commandes : <code>ps</code>, <code>find</code>, <code>grep</code>, <code>rm</code>, <code>ls</code>, … (en lister 10)</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Ressource  R1-11 « Base de la communication »</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Comment organiser une FAQ ?</p>
+</li>
+<li>
+<p>Qualité et efficience d’une FAQ</p>
+</li>
+<li>
+<p>Travers à éviter</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_suivi_et_évaluation"><a class="anchor" href="#_suivi_et_évaluation"></a>Suivi et Évaluation</h2>
+<div class="sectionbody">
+<div class="exampleblock">
+<div class="content">
+<div class="ulist">
+<ul>
+<li>
+<p>Travail par groupe de 3 étudiants</p>
+</li>
+<li>
+<p>Déroulement de la SAE sur 2 semaines à raison d’un créneau (8h15-9h45) sur les 5 jours de chacune des 2 semaines (soit 15h étudiant)</p>
+</li>
+<li>
+<p>Présentation de la SAE sur un créneau TD R1-04 :</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Présentation des attendus, des livrables, des phases de développement</p>
+</li>
+<li>
+<p>Planification du travail</p>
+</li>
+<li>
+<p>Identification des commandes à utiliser</p>
+</li>
+<li>
+<p>Organisation des tâches (Gantt)</p>
+</li>
+<li>
+<p>Recherches à prévoir : webographie</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Validation sur 2 créneaux TD R1-03 : tests et démonstration de l’opérationnalité de la VM</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
 </div>
 </div>
 </article>
